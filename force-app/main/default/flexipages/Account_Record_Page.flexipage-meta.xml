@@ -20,12 +20,7 @@
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
-        <itemInstances>
-            <componentInstance>
-                <componentName>cooper:companyInsightTeaserCard</componentName>
-                <identifier>companyInsightTeaserCard</identifier>
-            </componentInstance>
-        </itemInstances>
+        
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
