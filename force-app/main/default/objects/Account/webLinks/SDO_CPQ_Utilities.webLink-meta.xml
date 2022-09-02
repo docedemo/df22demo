@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SDO_CPQ_Utilities</fullName>
+    <availability>online</availability>
+    <description>What; Opens the VF page SDO_CPQ_Account_Utilities</description>
+    <displayType>button</displayType>
+    <linkType>page</linkType>
+    <masterLabel>Tool - CPQ Utilities</masterLabel>
+    <openType>replace</openType>
+    <page>SDO_CPQ_Account_Utilities</page>
+    <protected>false</protected>
+</WebLink>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SDO_Sales_Open_vs_Closed_Opportunities__c</fullName>
+    <description>What: Used in Reporting for Open vs Closed Opptys</description>
+    <externalId>false</externalId>
+    <formula>IMAGE(&apos;http://chart.apis.google.com/chart?cht=p3&amp;chs=300x100&amp;chd=t:&apos;+ 
+TEXT( SDO_Sales_Open_Opptys__c ) + &apos;,&apos; + TEXT(SDO_Sales_Closed_Lost_Opptys__c + SDO_Sales_Closed_Won_Opptys__c) + 
+&apos;&amp;chl=Open (&apos; + TEXT(SDO_Sales_Open_Opptys__c)+&apos;)|Closed (&apos;+TEXT( SDO_Sales_Closed_Lost_Opptys__c + SDO_Sales_Closed_Won_Opptys__c )+&apos;)&amp;chf=bg,s,FFFFFF&apos; 
+
+
+
+
+
+
+
+, &apos;no data available&apos;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Open vs. Closed Opportunities</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
