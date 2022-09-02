@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SDO_CPQ_Auto_Order__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>What: CPQ Field - Automatically creates an Order when the CPQ Opportunity for this Account is Closed Won</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Automatically creates an Order when the CPQ Opportunity for this Account is Closed Won</inlineHelpText>
+    <label>Auto Order?</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

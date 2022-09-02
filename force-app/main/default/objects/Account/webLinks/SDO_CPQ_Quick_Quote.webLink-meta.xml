@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SDO_CPQ_Quick_Quote</fullName>
+    <availability>online</availability>
+    <description>What: Create a quick CPQ quote for account.</description>
+    <displayType>button</displayType>
+    <linkType>page</linkType>
+    <masterLabel>Quick Quote</masterLabel>
+    <openType>replace</openType>
+    <page>SDO_CPQ_QuickQuote</page>
+    <protected>false</protected>
+</WebLink>
