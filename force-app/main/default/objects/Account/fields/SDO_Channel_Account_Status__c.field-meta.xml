@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SDO_Channel_Account_Status__c</fullName>
+    <description>What: Used in Channel Plans Reporting</description>
+    <externalId>false</externalId>
+    <formula>IF( SDO_Sales_Overdue_Invoices__c &gt; 0, IMAGE(&apos;/resource/acct_pastdue&apos;, &apos;Past Due&apos;), IMAGE(&apos;/resource/acct_paid&apos;, &apos;Paid in Full&apos;))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Account Status</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
