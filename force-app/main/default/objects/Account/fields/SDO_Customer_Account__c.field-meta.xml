@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SDO_Customer_Account__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <description>What: Customer Account # External ID field. Not sure if this is still used but has values set for Omega. Keeping it to be safe for now.</description>
+    <externalId>true</externalId>
+    <label>Customer Account #</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>
