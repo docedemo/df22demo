@@ -139,6 +139,11 @@
         <field>Product__c.Waterbottle_Color__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Product__c.isRefurbished__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>ebikes</label>
     <objectPermissions>
